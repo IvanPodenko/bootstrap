@@ -1,0 +1,448 @@
+@media (max-width: 1200px) {
+  .hero__img {
+    background-image: url(../img/cubes690@x1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 50px;
+}
+
+
+@media (max-width: 992px) {
+
+.header__nav-item {
+  /* margin-left: -29px; */
+}
+
+.hero {
+  min-height: 560px;
+}
+
+.title {
+font-size: 50px;
+line-height: 50px;
+padding-top: 90px;
+}
+
+.hero__paragraph {
+  min-height: 94px;
+}
+
+.hero__img {
+  background-position: right;
+  left: 34px;
+  bottom: 30px;
+}
+}
+
+.about__paragraph-top {
+/* width: 450px; */
+}
+
+.about__picture {
+  background-image: url(../img/rol690@x1.webp);
+  background-repeat: no-repeat;
+  width: 211px;
+  height: 187px;
+  margin-top: 40px;
+  margin-right: 73px;
+ }
+
+.about__list {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.about__paragraph-bottom {
+  width: 240px;
+  min-height: 68px;
+  padding-left: 28;
+  /* padding-top: 15px; */
+  padding-bottom: 70px;
+  margin-top: 0;
+}
+
+.teacher__list-img {
+  width: 100%;
+  border-radius: 28px 28px 0px 0px;
+}
+
+.teacher__list-text  {
+  /* width: 330px; */
+  min-height: 89px;
+}
+
+.courses__picture {
+  display: flex;
+}
+
+.courses__list-clock {
+  top: 9px;
+  right: 25px;
+}
+
+.courses__list-wrap {
+  min-height: 376px;
+}
+}
+
+
+
+@media (max-width: 768px) {
+
+.header__logo {
+display: block;
+text-align: center;
+padding-bottom: 30px;
+}
+
+.header__nav-list {
+margin-left: 0;
+margin-bottom: 30px;
+}
+
+.hero__img {
+  display: none;
+}
+
+.about__title{
+font-size: 40px;
+line-height: 40px;
+}
+
+
+.about__picture {
+  background-image: url(../img/rol510@x1.webp);
+  background-repeat: no-repeat;
+  width: 211px;
+  height: 187px;
+  margin-top: 111px;
+  margin-right: 73px;
+
+}
+
+.about__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__paragraph-bottom {
+  width: 150px;
+}
+
+.teacher__list-text {
+  /* width: 240px; */
+}
+
+.courses__list-wrap {
+  padding-right: 42px;
+  min-height: 473px;
+}
+
+}
+
+
+@media (max-width: 575px)  {
+
+.header__logo {
+display: block;
+text-align: center;
+padding-bottom: 36px;
+}
+
+.hero__picture {
+display: none;
+}
+
+.about__picture {
+width: 150px;
+height: 130px;
+}
+
+.about__img {
+  height: 130px;
+}
+
+.about__title  {
+font-size: 40px;
+line-height: 40px;
+padding-bottom: 10px;
+}
+
+.about__paragraph-top {
+  width: 340px;
+}
+
+.about__img-bottom {
+margin-top: 11px;
+margin-right: 15px;
+}
+
+.about__list {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  }
+
+.about__paragraph-bottom {
+  width: 259px;
+}
+
+/* .about__row-bottom {
+  display: flex;
+  flex-wrap: nowrap;
+} */
+
+/* .about__list{
+display: flex;
+flex-basis: 7%;
+} */
+
+
+.courses__list-text {
+  padding-right: 15px;
+}
+.courses__list-img {
+  width: 100%;
+}
+.courses-button {
+
+  padding: 20px 48px;
+  width: 180px;
+}
+
+.teacher__list-img {
+  border-radius: 40px 40px 0px 0px;
+  width: 100%;
+}
+
+}
+
+@media (max-width: 510px) {
+
+.header__nav-list {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+}
+
+.hero {
+  min-height: 420px;
+}
+
+.title {
+font-size: 30px;
+line-height: 30px;
+padding-top: 40px;
+}
+
+.hero__button {
+padding: 20px 50px;
+}
+
+.hero__paragraph {
+font-size: 16px;
+line-height: 24px;
+/* width: 290px; */
+}
+
+
+.about__picture {
+display: none;
+}
+
+.about__title {
+font-size: 20px;
+line-height: 26px;
+}
+
+
+
+.teacher-title {
+font-size: 20px;
+line-height: 20px;
+}
+
+
+
+}
+
+/* 375 */
+@media (max-width: 375px) {
+
+
+.about__paragraph-top {
+width: 290px;
+}
+
+
+/* .header__btn-close {
+background: transparent;
+cursor: pointer;
+outline: none;
+border: 0;
+} */
+
+.header__logo {
+  display: inline-block;
+}
+
+.header__btn-open  {
+display: inline-block;
+padding-left: 56%;
+background: transparent;
+cursor: pointer;
+outline: none;
+border: 0;
+}
+
+.header__btn-close {
+display: inline-block;
+padding-left: 80%;
+padding-top: 76px;
+background: transparent;
+cursor: pointer;
+outline: none;
+border: 0;
+}
+
+.header__btn-close-icon {
+  margin-bottom: 50px;
+}
+
+.header__nav {
+position: absolute;
+top: 0;
+left: 0;
+bottom: -450px;
+background-color:#2F2C45 ;
+padding: 10px 0;
+width: 100%;
+height: 600px;
+/* overflow-y: auto; */
+opacity: 0;
+transform: translateX(-100%);
+transition: transform .3s ease-in-out, opacity .3s ease-in-out, visibility .3s ease-in-out;
+visibility: hidden;
+z-index: 2;
+}
+
+.heaader__nav-active {
+visibility: visible;
+transform: none;
+}
+
+.header__nav-list {
+display: flex;
+flex-direction: column;
+}
+
+/* :not(:last-child) */
+.header__nav-forgot{
+padding-left: 45px;
+padding-bottom: 56px;
+}
+
+.nav--visible {
+flex-direction: column;
+align-items: flex-start;
+transform: translateY(-15%);
+opacity: 1;
+visibility: visible;
+padding-top: 37px;
+}
+
+.hero__paragraph {
+  padding-bottom: 40px;
+}
+
+
+
+/*
+.header__nav {
+position: absolute;
+right: 0;
+top: 0;
+height: 100px;
+width: 50%;
+z-index: -10;
+background-color: wheat;
+overflow-y: auto;
+visibility: hidden;
+transform: translateX(-120%);
+transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.header__logo {
+position: absolute;
+}
+
+.header__nav-list {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+.header__nav-list .header__nav-item:not(:last-child) {
+margin-right: 58px;
+margin-bottom: 10px;
+}
+
+.header__burger-line {
+position: absolute;
+top: 50px;
+right:25px;
+width: 30px;
+height: 2px;
+background-color: white;
+transform: translateY(-50%);
+transition: opacity 0.3s ease-in-out;
+}
+
+.header__burger::before,
+.header__burger::after {
+content: "";
+position: absolute;
+right:25px;
+width: 30px;
+height: 2px;
+background-color: white;
+transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, bottom 0.3s ease-in-out;
+}
+
+.header__burger::before {
+top: 37px;
+}
+
+.header__burger::after {
+top: 62px;
+}
+
+.burger--active  .header__burger-line {
+opacity: 0;
+}
+
+.burger--active::before {
+top: 50px;
+transform: rotate(45deg);
+}
+
+.burger--active::after {
+bottom: auto;
+top: 50px;
+transform: rotate(-45deg);
+}
+
+.nav--visible {
+visibility: visible;
+transform: none;
+z-index: 0;
+top: 75px;
+width: 100%;
+transform: none;
+} */
+
+/* transform: translateX(50%);
+transition: transform 0.6s ease-in-out; */
+
+}
