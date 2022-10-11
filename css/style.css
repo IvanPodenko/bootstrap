@@ -104,7 +104,8 @@ input {
 
  .hero {
   background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
- }
+  padding-bottom: 80px;
+}
 
  .title {
   font-family: 'Roboto';
@@ -124,7 +125,7 @@ input {
   font-size: 18px;
   line-height:27px;
   color: #FFFFFF;
-  padding-bottom: 88px;
+  padding-bottom: 80px;
  }
 
  .hero__button {
@@ -136,7 +137,7 @@ input {
   color: #FFFFFF;
   width: 270px;
   height: 69px;
-  margin-top: 45px;
+  /* margin-top: 45px; */
   background: #3F2AFF;
   border-radius: 20px;
   padding: 24px 75px;
@@ -215,22 +216,23 @@ input {
  .about__img--eye-circle {
   background-image: url(../img/eye-circle.svg);
   background-repeat: no-repeat;
-  width: 80px;
+  width: 135px;
   height: 80px;
  }
 
   .about__img--fingers {
   background-image: url(../img/fingers.svg);
   background-repeat: no-repeat;
-  width: 80px;
+  width: 135px;
   height: 80px;
   }
 
   .about__img--gramophone {
   background-image: url(../img/gramophone.svg);
   background-repeat: no-repeat;
-  width: 80px;
+  width: 135px;
   height: 80px;
+
   }
 
   .about__paragraph-bottom {
@@ -240,15 +242,17 @@ input {
   font-size: 16px;
   line-height: 19px;
   color: #666666;
-  padding-left: 30px;
-  padding-bottom: 90px;
+  /* padding-left: 30px; */
+  padding-bottom: 12px;
   margin-top: 12px;
   width: 274px;
   }
 
  .about__list {
   display: flex;
-  justify-content: end;
+  /* justify-content: end; */
+  height: 100%;
+  /* padding-left: 68px; */
  }
 
 
@@ -336,13 +340,13 @@ input {
   border-radius: 00px 00px 20px 20px;
  }
 
- .courses__list-wrapper {
+ /* .courses__list-wrapper {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-basis: 100%;
- }
+ } */
 
  .courses__list-img {
   position: relative;
@@ -453,5 +457,4 @@ input {
 .footer__copyright-color {
   color: #3F2AFF;
 }
-
 
