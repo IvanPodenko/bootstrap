@@ -1,2 +1,2 @@
-# butstrap
+# bootstrap
 17 homework
